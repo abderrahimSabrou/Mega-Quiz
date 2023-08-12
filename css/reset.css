@@ -1,0 +1,60 @@
+:root {
+  --main-bg-clr: #8294c4;
+  --bg-clr: #acb1d6;
+  --font-clr: #fff;
+}
+
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--main-bg-clr);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-conter {
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+/* Classes for javaScript functionality*/
+
+.hidden {
+  display: none;
+}
+
+/****/
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}

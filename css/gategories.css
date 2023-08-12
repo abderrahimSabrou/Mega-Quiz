@@ -1,0 +1,100 @@
+.categories-container {
+  background-color: var(--bg-clr);
+  width: 50rem;
+  height: 35rem;
+}
+
+h1.categories-h1 {
+  text-align: center;
+  padding: 1rem;
+  color: #dbdfea;
+  font-size: 1.7rem;
+  /* border: 1px solid red; */
+  width: 72%;
+  margin: 1rem auto 1rem;
+  background-color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+.categories-links {
+  /* border: 1px solid red; */
+  width: 95%;
+  height: 26rem;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.categories-links a {
+  /* border: 1px solid var(--main-bg-clr); */
+  width: 14rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background-color: #dbdfea;
+  color: var(--main-bg-clr);
+  transition: all ease-in-out 0.5s;
+}
+
+.categories-links a:hover {
+  transform: scale(1.03);
+  color: var(--main-bg-clr);
+}
+
+.knowledge:hover {
+  background: url(https://i.pinimg.com/564x/68/7e/ec/687eec9b70c754900c9094c9cbd424d6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.science:hover {
+  background: url(https://i.pinimg.com/564x/e5/5e/de/e55edebc0ee66210d08cadd501dbd0ec.jpg);
+  background-position-y: 35%;
+  background-size: cover;
+}
+
+.history:hover {
+  background: url(https://i.pinimg.com/564x/87/2c/6b/872c6b55b58c4aec3e810de94fbf819e.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.sports:hover {
+  background: url(https://i.pinimg.com/564x/11/76/d6/1176d6d2b9324bd9cf5ab38f1de7192c.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.food:hover {
+  background: url(https://i.pinimg.com/564x/e7/79/7a/e7797aa2d416efdc9e67334c93fb2953.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.tech:hover {
+  background: url(https://i.pinimg.com/564x/0f/4b/cf/0f4bcf4ce55bce30624bc15f1d8de624.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.anime:hover {
+  background: url(https://w0.peakpx.com/wallpaper/797/734/HD-wallpaper-kid-luffy-by-shanto-animation-anime-luffy-one-piece.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.human:hover {
+  background: url(https://i.pinimg.com/564x/c8/ac/b8/c8acb8e0c68f9885cb728549fe36fb10.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.mythology:hover {
+  background: url(https://i.pinimg.com/564x/c5/45/10/c5451071265f5f080acd79d0239b92c3.jpg);
+  background-position: center;
+  background-size: cover;
+}

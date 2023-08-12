@@ -1,0 +1,152 @@
+.game-container {
+  background-color: var(--bg-clr);
+  width: 50rem;
+  height: 35rem;
+}
+
+.question {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #dbdfea;
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 2rem auto;
+  background-color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+/* Questions */
+.options {
+  margin-bottom: 1.4rem;
+  font-size: 1.2rem;
+  /* border: 1px solid; */
+  /* padding: 1rem; */
+  margin: 0.5rem auto 0;
+}
+
+.option {
+  display: block;
+  margin: auto auto 1.2rem;
+  /* border: 1px solid red; */
+  background-color: #ffead2;
+  color: var(--main-bg-clr);
+  padding: 0.8rem 2rem;
+  width: 70%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  margin: 5px;
+  display: inline-blocks;
+  /* width: 1rem;
+  height: 1.3rem; */
+}
+
+.button {
+  /* text-align: center; */
+  display: block;
+  padding: 1rem 3rem;
+  background-color: #ffead2;
+  color: var(--main-bg-clr);
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 16rem;
+  margin: 0rem auto 0;
+  border-radius: 8px;
+  transition: transform 150ms ease-in-out;
+}
+
+.button i {
+  margin-left: 10px;
+}
+
+.button:hover {
+  /* cursor: pointer; */
+  transform: translateY(-3px);
+}
+
+.result {
+  text-align: center;
+  margin-top: 1.4rem;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+/* .choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 90%;
+  border-radius: 8px;
+  background-color: #dbdfea;
+  font-size: 1rem;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: transform 100ms ease-in-out;
+}
+
+.choice-prefix {
+  padding: 1rem 1.5rem;
+  color: var(--font-clr);
+}
+
+.choice-text {
+  padding: 1rem;
+  width: 100%;
+} */
+
+/* Corect abd incorrect Colors */
+/* .correct {
+  background: linear-gradient(
+    32deg,
+    rgba(11, 233, 36) 0%,
+    rgba(41, 232, 111) 100%
+  );
+}
+
+.incorrect {
+  background: linear-gradient(
+    32deg,
+    rgba(230, 29, 29, 1) 0%,
+    rgba(224, 11, 11, 1) 100%
+  );
+} */
+/* 
+#hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 20rem;
+  height: 2rem;
+  border: 0.2rem solid rgba(11, 233, 36);
+  margin-top: 0.5rem;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#progressBarFull {
+  height: 100%;
+  background-color: rgba(11, 233, 36);
+  width: 0%;
+} */

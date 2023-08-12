@@ -1,0 +1,78 @@
+.welcome-container {
+  background-color: var(--bg-clr);
+  width: 50rem;
+  height: 35rem;
+}
+
+h1.home-h1 {
+  text-align: center;
+  padding: 2rem;
+  color: #dbdfea;
+  font-size: 2.35rem;
+  /* border: 1px solid red; */
+  width: 72%;
+  margin: 2rem auto 1rem;
+  background-color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+.welcome-container p {
+  color: #ffead2;
+  width: 80%;
+  margin: 1rem auto;
+  font-size: 1.7rem;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  padding: 1rem 3rem;
+  width: 14rem;
+  font-size: 1.5rem;
+  margin: 2rem auto 0;
+  border: none;
+  background-color: #ffead2;
+  color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+.btn i {
+  margin-left: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transition: transorm 150ms;
+  transform: translateY(-3px);
+}
+
+/* Instructions card*/
+
+.instructions-container {
+  background-color: var(--bg-clr);
+  width: 50rem;
+  height: 35rem;
+}
+
+.instructions-container ul {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: 2rem auto 1rem;
+  font-size: 1.3rem;
+  line-height: 2;
+  font-weight: 500;
+  color: #ffead2;
+}
+
+span.number {
+  color: var(--main-bg-clr);
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+.instructions-container p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffead2;
+  text-decoration: underline 2px;
+}
