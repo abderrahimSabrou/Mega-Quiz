@@ -56,7 +56,6 @@ const quizData = [
 
 
 ];
-
 // Select Element from Game.HTML File
 const quizContainer = document.getElementById("quiz");
 const resultContainer = document.getElementById("result");
@@ -91,6 +90,8 @@ function displayQuestion() {
   const shuffledOptions = [...questionData.options];
   shuffleArray(shuffledOptions);
 
+  // Everytime the user restar the game or refresh the page 
+  // => Shuffle the order of the options
   for (let i = 0; i < shuffledOptions.length; i++) {
     const option = document.createElement("label");
     option.className = "option";
@@ -114,6 +115,8 @@ function displayQuestion() {
   quizContainer.appendChild(optionsElement);
 }
 
+
+// Check if the Answer is right
 function checkAnswer() {
   const selectedOption = document.querySelector('input[name="quiz"]:checked');
   if (selectedOption) {
@@ -137,6 +140,8 @@ function checkAnswer() {
   }
 }
 
+
+// After ending the quiz, display the result
 function displayResult() {
   quizContainer.style.display = "none";
   submitButton.style.display = "none";
@@ -145,6 +150,7 @@ function displayResult() {
   resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}`;
 }
 
+// Restart the Quiz game
 function retryQuiz() {
   currentQuestion = 0;
   score = 0;
@@ -157,6 +163,8 @@ function retryQuiz() {
   displayQuestion();
 }
 
+// After ending the quiz
+// ==> you can see the correct and incorrect answers
 function ShowAnswer() {
   quizContainer.style.display = "none";
   submitButton.style.display = "none";
@@ -181,8 +189,10 @@ function ShowAnswer() {
   `;
 }
 
+// Call the Functions buttons
 submitButton.addEventListener("click", checkAnswer);
 retryButton.addEventListener("click", retryQuiz);
 showAnswerButton.addEventListener("click", ShowAnswer);
 
+// Display Questions
 displayQuestion();
