@@ -1,16 +1,6 @@
 // Question, Optons and Answers
 
 const quizData = [
-  // {
-  //   question: `In the anime "One Piece," what is the name of Monkey D. Luffy's signature attack?`,
-  //   options: [
-  //     "Demon Wind Shuriken",
-  //     "Kamehameha",
-  //     "Gum-Gum Pistol",
-  //     "Rasengan",
-  //   ],
-  //   answer: "Gum-Gum Pistol",
-  // },
   {
     question: `What is the capital city of Japan?`,
     options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
