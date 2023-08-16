@@ -1,54 +1,57 @@
 // Question, Optons and Answers
 
 const quizData = [
-
+ 
   {
-    question: `Who was the first President of the United States?`,
-    options: ["John Adams", "Thomas Jefferson", "George Washington", "Benjamin Franklin"],
-    answer: "George Washington",    
+    question: `Which fruit is known as the "king of fruits" and has a strong, distinctive aroma?`,
+    options: ["Banana", "Pineapple", "Durian", "Mango"],    
+    answer: "Durian",
   },
   {
-    question: `The Renaissance was a cultural movement that originated in which European city?`,
-    options: ["Rome", "Paris", "London", "Florence"],
-    answer: "Florence",
+    question: `What is the main ingredient in guacamole, a popular Mexican dip?`,
+    options: ["Tomato", "Onion", "Avocado", "Lemon"],
+    answer: "Avocado",
   },
   {
-    question: `What event led to the end of apartheid in South Africa?`,
-    options: ["Cuban Missile Crisis", "Berlin Wall Fall", "Korean War", "Release of Nelson Mandela"],
-    answer: "Release of Nelson Mandela",
+    question: `Which Italian pasta is shaped like rice and is often used in soups?`,
+    options: ["Fusilli", "Penne", "Orzo", "Linguine"],
+    answer: "Orzo",
   },
   {
-    question: `Which famous speech begins with the line, "I have a dream"?`,
-    options: [
-      `Winston Churchill's "We shall fight on the beaches"`, 
-      `Martin Luther King Jr.'s "I Have a Dream"`,
-      `John F. Kennedy's "Ask not what your country can do for you"`,
-      `Franklin D. Roosevelt's "The only thing we have to fear is fear itself"`
-    ],
-    answer: `Martin Luther King Jr.'s "I Have a Dream"`,
-  },
-
-  {
-    question: `Who was the ruler of the Roman Empire when it reached its greatest territorial extent?`,
-    options: ["Julius Caesar", "Nero", "Augustus", "Trajan"],
-    answer: "Trajan",
-  },
-
-  {
-    question: `Which famous ship sank in 1912 during its maiden voyage, leading to the deaths of more than 1,500 passengers?`,
-    options: ["HMS Bounty", "RMS Lusitania", "RMS Titanic", "USS Maine"],
-    answer: "RMS Titanic",
+    question: `Which type of seafood is a delicacy often served as sushi or sashimi?`,
+    options: ["Octopus", "Shrimp", "Salmon", "Eel"],
+    answer: "Salmon",
   },
   {
-    question: `Which ancient civilization developed a complex writing system known as hieroglyphics?`,
-    options: ["Mesopotamia", "Ancient Greece", "Ancient Rome", "Ancient Egypt"],
-    answer: "Ancient Egypt",
+    question: `What is the main ingredient in traditional Japanese miso soup?`,
+    options: ["Seaweed", "Tofu", "Fish", "Miso paste"],
+    answer: "Miso paste",
   },
   {
-    question: `What event marked the beginning of the French Revolution in 1789?`,
-    opions: ["Storming of the Bastille", "Reign of Terror", "Execution of Marie Antoinette", "Signing of the Treaty of Versailles"],
-    answer: "Storming of the Bastille",
+    question: `Which type of bread, originating in France, is characterized by its long, thin shape?`,
+    options: ["Baguette", "Croissant", "Ciabatta", "Pretzel"],
+    answer: "Baguette",
   },
+  {
+    question: `What type of nuts are used to make pesto sauce?`,
+    options: ["Almonds", "Walnuts", "Cashews", "Pine nuts"],
+    answer: "Pine nuts",
+  },
+  {
+    question: `Which popular dessert consists of layers of sponge cake, custard, and fruit, often topped with whipped cream?`,
+    options: ["Chocolate cake", "Apple pie", "Tiramisu", "Trifle"],
+    answer: "Trifle",
+  },
+  {
+    question: `What is the main ingredient in traditional hummus?`,
+    options: ["Chickpeas", "Lentils", "Black beans", "Kidney beans"],
+    answer: "Chickpeas",
+  },
+  {
+    question: `Which type of cheese is known for its strong odor and creamy texture, often used in cooking?`,
+    options: ["Cheddar", "Gouda", "Blue cheese", "Mozzarella"],
+    answer: "Blue cheese",
+  }
 ];
 
 // Select Element from Game.HTML File

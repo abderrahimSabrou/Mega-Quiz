@@ -1,53 +1,66 @@
 // Question, Optons and Answers
 
 const quizData = [
+ 
 
   {
-    question: `Who was the first President of the United States?`,
-    options: ["John Adams", "Thomas Jefferson", "George Washington", "Benjamin Franklin"],
-    answer: "George Washington",    
-  },
-  {
-    question: `The Renaissance was a cultural movement that originated in which European city?`,
-    options: ["Rome", "Paris", "London", "Florence"],
-    answer: "Florence",
-  },
-  {
-    question: `What event led to the end of apartheid in South Africa?`,
-    options: ["Cuban Missile Crisis", "Berlin Wall Fall", "Korean War", "Release of Nelson Mandela"],
-    answer: "Release of Nelson Mandela",
-  },
-  {
-    question: `Which famous speech begins with the line, "I have a dream"?`,
-    options: [
-      `Winston Churchill's "We shall fight on the beaches"`, 
-      `Martin Luther King Jr.'s "I Have a Dream"`,
-      `John F. Kennedy's "Ask not what your country can do for you"`,
-      `Franklin D. Roosevelt's "The only thing we have to fear is fear itself"`
-    ],
-    answer: `Martin Luther King Jr.'s "I Have a Dream"`,
+    question: `Which company developed the first successful personal computer, known as the Altair 8800, in 1975?`,
+    options: ["Microsoft", "IBM", "Apple", "Intel"],
+    answer: "Intel",
   },
 
   {
-    question: `Who was the ruler of the Roman Empire when it reached its greatest territorial extent?`,
-    options: ["Julius Caesar", "Nero", "Augustus", "Trajan"],
-    answer: "Trajan",
+    question: `What is the term for a set of instructions given to a computer to perform a specific task?`,
+    options: ["Algorithm", "Code", "Data", "Program"],
+    answer: "Program",
   },
 
   {
-    question: `Which famous ship sank in 1912 during its maiden voyage, leading to the deaths of more than 1,500 passengers?`,
-    options: ["HMS Bounty", "RMS Lusitania", "RMS Titanic", "USS Maine"],
-    answer: "RMS Titanic",
+    question: `What technology allows a user to interact with a computer using gestures, touch, and multi-touch gestures?`,
+    options: [`Virtual reality (VR)`, `Augmented reality (AR)`, "Gesture recognition", "Voice recognition"],
+    answer: "Gesture recognition",
   },
+
   {
-    question: `Which ancient civilization developed a complex writing system known as hieroglyphics?`,
-    options: ["Mesopotamia", "Ancient Greece", "Ancient Rome", "Ancient Egypt"],
-    answer: "Ancient Egypt",
+    question: `Which programming language is often used for developing mobile applications for both iOS and Android platforms?`,
+    options: ["Java", "Python", "C++", "Swift"],
+    answer: "Swift",
   },
+
   {
-    question: `What event marked the beginning of the French Revolution in 1789?`,
-    opions: ["Storming of the Bastille", "Reign of Terror", "Execution of Marie Antoinette", "Signing of the Treaty of Versailles"],
-    answer: "Storming of the Bastille",
+    question: `Which technology allows computers to store and retrieve data using magnetic fields on a spinning disk?`,
+    options: [`SSD (Solid-State Drive)`, `HDD (Hard Disk Drive)`, `USB (Universal Serial Bus)`, `RAM (Random Access Memory)`],
+    answer: `HDD (Hard Disk Drive)`,
+  },
+
+  {
+    question: `What technology is commonly used to encrypt data transmissions and provide secure communication over the internet?`,
+    options: [`HTTP (Hypertext Transfer Protocol)`, `HTML (Hypertext Markup Language)`, `SSL/TLS (Secure Sockets Layer/Transport Layer Security)`, `FTP (File Transfer Protocol)`],
+    answer: `SSL/TLS (Secure Sockets Layer/Transport Layer Security)`,
+  },
+
+  {
+    question: `What technology is the basis for blockchain and cryptocurrencies like Bitcoin?`,
+    options: [`Artificial intelligence (AI)`, "Quantum computing", "Decentralized ledger", "Cloud computing"],
+    answer: "Decentralized ledger",
+  },
+
+  {
+    question: `What is the name of the programming paradigm that involves breaking down a problem into smaller, reusable parts?`,
+    options: ["Object-oriented programming", "Functional programming", "Procedural programming", "Modular programming"],
+    answer: "Modular programming",
+  },
+
+  {
+    question: `Which technology protocol is used to assign IP addresses to devices on a network dynamically?`,
+    options: [`DNS (Domain Name System)`, `DHCP (Dynamic Host Configuration Protocol)`, `FTP (File Transfer Protocol)`, `SMTP (Simple Mail Transfer Protocol)`],
+    answer: `DHCP (Dynamic Host Configuration Protocol)`,
+  },
+
+  {
+    question: `Which type of encryption uses a single key for both encryption and decryption?`,
+    options: ["Symmetric encryption", "Asymmetric encryption", "Hashing", "Public-key encryption"],
+    answer: "Symmetric encryption",
   },
 ];
 

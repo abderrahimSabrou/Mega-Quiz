@@ -1,53 +1,57 @@
 // Question, Optons and Answers
 
 const quizData = [
-
-  {
-    question: `Who was the first President of the United States?`,
-    options: ["John Adams", "Thomas Jefferson", "George Washington", "Benjamin Franklin"],
-    answer: "George Washington",    
-  },
-  {
-    question: `The Renaissance was a cultural movement that originated in which European city?`,
-    options: ["Rome", "Paris", "London", "Florence"],
-    answer: "Florence",
-  },
-  {
-    question: `What event led to the end of apartheid in South Africa?`,
-    options: ["Cuban Missile Crisis", "Berlin Wall Fall", "Korean War", "Release of Nelson Mandela"],
-    answer: "Release of Nelson Mandela",
-  },
-  {
-    question: `Which famous speech begins with the line, "I have a dream"?`,
-    options: [
-      `Winston Churchill's "We shall fight on the beaches"`, 
-      `Martin Luther King Jr.'s "I Have a Dream"`,
-      `John F. Kennedy's "Ask not what your country can do for you"`,
-      `Franklin D. Roosevelt's "The only thing we have to fear is fear itself"`
-    ],
-    answer: `Martin Luther King Jr.'s "I Have a Dream"`,
+ 
+  { 
+    question: `Which sport is known as "the beautiful game"?`,
+    options: ["Basketball", "Soccer (Football)", "Baseball", "Tennis"],
+    answer: "Soccer (Football)",
   },
 
   {
-    question: `Who was the ruler of the Roman Empire when it reached its greatest territorial extent?`,
-    options: ["Julius Caesar", "Nero", "Augustus", "Trajan"],
-    answer: "Trajan",
-  },
-
-  {
-    question: `Which famous ship sank in 1912 during its maiden voyage, leading to the deaths of more than 1,500 passengers?`,
-    options: ["HMS Bounty", "RMS Lusitania", "RMS Titanic", "USS Maine"],
-    answer: "RMS Titanic",
+    question: `Which golfer is often referred to as "The Golden Bear"?`,
+    options: ["Tiger Woods", "Phil Mickelson", "Jack Nicklaus", "Arnold Palmer"],
+    answer: "Jack Nicklaus",
   },
   {
-    question: `Which ancient civilization developed a complex writing system known as hieroglyphics?`,
-    options: ["Mesopotamia", "Ancient Greece", "Ancient Rome", "Ancient Egypt"],
-    answer: "Ancient Egypt",
+    question: `In which sport would you perform a slam dunk?`,
+    options: ["Volleyball", "Basketball", "Soccer", "Cricket"],
+    answer: "Basketball",    
   },
   {
-    question: `What event marked the beginning of the French Revolution in 1789?`,
-    opions: ["Storming of the Bastille", "Reign of Terror", "Execution of Marie Antoinette", "Signing of the Treaty of Versailles"],
-    answer: "Storming of the Bastille",
+    question: `Which country is famous for introducing the sport of sumo wrestling?`,
+    options: ["China", "Russia", "Japan", "Mongolia"],
+    answer: "Japan",
+  },
+  {
+    question: `Which track and field event involves a combination of running, jumping, and throwing?`,
+    options: ["Shot put", " Long jump", "Decathlon", "100m sprint"],
+    answer: "Decathlon",
+  },
+  {
+    question: `Which city hosted the 2016 Summer Olympics?`,
+    options: ["Beijing", "Rio de Janeiro", "London", "Tokyo"],
+    answer: "Rio de Janeiro",
+  },
+  {
+    question: `In American football, how many points is a touchdown worth?`,
+    options: ["3 points", "5 points", "6 points", "7 points"],
+    answer: "6 points",
+  },
+  {
+    question: `Which tennis player has won the most Grand Slam titles in the men's singles category?`,
+    options: ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
+    answer: "Novak Djokovic",    
+  },
+  {
+    question: `Which sport uses terms like "birdie" and "eagle" to denote scoring?`, 
+    options: ["Golf", "Rugby", "Swimming", "Table tennis"],
+    answer: "Golf",
+  },
+  {
+    question: `Which sport features a heavyweight category known as "sumo"?`,
+    options: ["Boxing", "Wrestling", "Judo", "Karate"],
+    answer: "Wrestling",
   },
 ];
 

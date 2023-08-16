@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega Quiz Game</title>
+
+    <!-- CSS files -->
+    <!-- <link rel="stylesheet" href="../css/main-style.css" /> -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/game.css" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/36ec713c85.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="game-container">
+        <!-- Quiz Questions here -->
+        <div id="quiz"></div>
+
+        <!-- Show the resut after end the Quiz-->
+        <div id="result" class="result"></div>
+
+        <!-- Go to the next Question -->
+        <button id="submit" class="button">
+          Next <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+        <!-- Restart the game -->
+        <button id="retry" class="button hide">
+          Retry <i class="fa-solid fa-repeat"></i>
+        </button>
+
+        <!-- Show incorrect Answers at the end of the Quiz-->
+        <button id="ShowAnswer" class="button hide">
+          Answers <i class="fa-solid fa-eye"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="../js/human.js"></script>
+  </body>
+</html>
