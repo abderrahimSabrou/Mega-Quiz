@@ -1,13 +1,67 @@
 // Question, Optons and Answers
 
 const quizData = [
-  // {
-  //   question: `What is the capital city of Japan?`,
-  //   options: ["Beijing", "Seoul", "Tokyo", "Bangkok"],
-  //   answer: "Tokyo",
-  // },
 
-  // Working on Mythology Quiz
+  {
+    question: `Who is the king of the Greek gods in ancient mythology?`,
+    options: ["Hades", "Poseidon", "Zeus", "Apollo"],
+    answer: "Zeus",
+  },
+
+  {
+    question: `In Norse mythology, which powerful god is associated with thunder and lightning?`,
+    options: ["Odin", "Loki", "Thor", "Freyja"],
+    answer: "Thor",
+  },
+
+  {
+    question: `Who is the Roman goddess of love and beauty, equivalent to the Greek goddess Aphrodite?`,
+    options: ["Hera", "Artemis", "Venus", "Demeter"],
+    answer: "Venus",
+  },
+
+  {
+    question: `In Hindu mythology, who is the god of destruction and transformation?`,
+    options: ["Vishnu", "Brahma", "Shiva", "Ganesh"],
+    answer: "Shiva",
+  },
+
+  {
+    question: `Which ancient Egyptian god is often depicted with the head of a falcon and is associated with the sun and sky?`,
+    options: ["Anubis", "Ra", "Osiris", "Horus"],
+    answer: "Ra",
+  },
+
+  {
+    question: `In Chinese mythology, which legendary creature is often considered a symbol of power and good luck?`,
+    options: ["Dragon", "Phoenix", "Unicorn", "Griffin"],
+    answer: "Dragon",
+  },
+
+  {
+    question: `Who is the trickster god in Native American mythology, often depicted as a coyote or raven?`,
+    options: ["Thor", "Loki", "Anansi", "Coyote"],
+    answer: "Coyote",
+  },
+
+  {
+    question: `In Japanese mythology, what is the name of the sun goddess and one of the most important deities in the Shinto pantheon?`,
+    options: ["Amaterasu", "Izanami", "Susanoo", "Tsukuyomi"],
+    answer: "Amaterasu",
+  },
+
+  {
+    question: `Who is the god of the underworld and the judge of souls in ancient Egyptian mythology?`,
+    options: ["Anubis", "Anubis", "Ra", "Seth"],
+    answer: "Osiris",
+  },
+
+  {
+    question: `In Greek mythology, who is the winged horse born from the blood of the Gorgon Medusa?`,
+    options: ["Pegasus", "Chiron", "Centaur", "Hippogriff"],
+    answer: "Pegasus",
+  },
+
   
 ];
 
