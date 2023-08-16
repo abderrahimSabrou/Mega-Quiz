@@ -56,7 +56,10 @@ const quizData = [
 
 
 ];
+
 // Select Element from Game.HTML File
+const gameContainer = document.querySelector('game-container'); 
+
 const quizContainer = document.getElementById("quiz");
 const resultContainer = document.getElementById("result");
 const submitButton = document.getElementById("submit");
@@ -146,8 +149,9 @@ function displayResult() {
   quizContainer.style.display = "none";
   submitButton.style.display = "none";
   retryButton.style.display = "inline-block";
+  retryButton.style.margin = "auto 80px";
   showAnswerButton.style.display = "inline-block";
-  resultContainer.innerHTML = `You scored ${score} out of ${quizData.length}`;
+  resultContainer.innerHTML = `<p class="display__result">You scored ${score} out of ${quizData.length}</p>`;
 }
 
 // Restart the Quiz game
@@ -156,7 +160,8 @@ function retryQuiz() {
   score = 0;
   incorrectAnswers = [];
   quizContainer.style.display = "block";
-  submitButton.style.display = "inline-block";
+  submitButton.style.display = "block";
+  submitButton.style.margin = "5px auto";
   retryButton.style.display = "none";
   showAnswerButton.style.display = "none";
   resultContainer.innerHTML = "";
@@ -166,25 +171,28 @@ function retryQuiz() {
 // After ending the quiz
 // ==> you can see the correct and incorrect answers
 function ShowAnswer() {
+
+
   quizContainer.style.display = "none";
   submitButton.style.display = "none";
-  retryButton.style.display = "inline-block";
+  retryButton.style.display = "block";
+  retryButton.style.margin = "5px auto";  
   showAnswerButton.style.display = "none";
 
   let incorrectAnswersHtml = "";
   for (let i = 0; i < incorrectAnswers.length; i++) {
     incorrectAnswersHtml += `
-    <p>
+    <p class ="answers">
       <strong>Question:</strong> ${incorrectAnswers[i].question}<br>
-      <strong>Your Answer:</strong> ${incorrectAnswers[i].incorrectAnswers}<br>
-      <strong>Correct Answer:</strong> ${incorrectAnswers[i].correctAnswer}<br>
+      <strong class="red">Your Answer:</strong> ${incorrectAnswers[i].incorrectAnswers}.<br>
+      <strong class="green">Correct Answer:</strong> ${incorrectAnswers[i].correctAnswer}<br>
     </p>
     `;
   }
 
   resultContainer.innerHTML = `
-  <p>Your Scored ${score} out of ${quizData.length}!</p>
-  <p>Incorrect Answers:</p>
+  <p class="end__score">Your Scored ${score} out of ${quizData.length}!</p>
+  <p class="end__correct">Incorrect Answers:</p>
   ${incorrectAnswersHtml}
   `;
 }

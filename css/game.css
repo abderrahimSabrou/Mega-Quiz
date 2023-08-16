@@ -1,7 +1,8 @@
 .game-container {
   background-color: var(--bg-clr);
   width: 50rem;
-  height: 35rem;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 .question {
@@ -150,3 +151,99 @@ input[type="radio"] {
   background-color: rgba(11, 233, 36);
   width: 0%;
 } */
+
+.display__result {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #dbdfea;
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 2rem auto;
+  background-color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+
+.end__score {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #dbdfea;
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 2rem auto;
+  background-color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+.end__correct {
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: #dbdfea;
+  /* border: 1px solid red; */
+  width: 25%;
+  margin: 2rem auto;
+  background-color: var(--main-bg-clr);
+  border-radius: 8px;
+}
+
+
+p.answers {
+  /* border: 1px solid red; */
+  text-align: left;
+  margin-bottom: 20px;
+  color: #ffead2;
+}
+
+strong {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: var(--main-bg-clr);
+  color: var(--bg-clr);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.green {
+ color: #41FF42;
+}
+
+.red {
+ color: #F52631;
+}
+
+
+
+
+
+
+/* Start Media Queries */
+
+@media screen and (max-width: 590px) {
+  .game-container  {
+   border: none;
+  }
+
+  body {
+    background-color: var(--bg-clr);
+  }
+
+  #retry {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100px;
+    font-size: 1rem;
+    display: block;
+
+  }
+
+  #ShowAnswer {
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 120px;
+    font-size: 1rem;
+    display: inline block;
+  }
+}
