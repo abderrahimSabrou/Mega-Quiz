@@ -2,6 +2,8 @@
   background-color: var(--bg-clr);
   width: 50rem;
   height: 35rem;
+  margin: 100px auto 0px;
+  padding-top: 10px;
 }
 
 h1.home-h1 {
@@ -52,6 +54,8 @@ h1.home-h1 {
   background-color: var(--bg-clr);
   width: 50rem;
   height: 35rem;
+  margin: 100px auto 0px;
+  padding-top: 10px;
 }
 
 .instructions-container ul {
